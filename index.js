@@ -27,3 +27,25 @@ items[1].style.fontweight = "bold";
 for (var i = 0; i < items.length; i++) {
   items[i].style.backgroundcolor = "#f4f4f4";
 }
+/*var items = document.getElementsByClassName("list-group-item");
+console.log(items);
+console.log(items[1]);
+items[1].textContent = "hello 2";
+items[1].style.backgroundcolor = "yellow";
+items[1].style.fontweight = "bold";
+//items .style.background
+for (var i = 0; i < items.length; i++) {
+  items[i].style.backgroundcolor = "#f4f4f4";
+}*/
+// query selector
+var header = document.querySelector("");
+header.style.borderBottom = "solid 5px red";
+
+var input = docume.querySelector("input");
+input.value = "hello world";
+var submit = document.querySelector("input[type=submit]");
+submit.value = "SEND";
+var item = document.querySelector(".list-group-item");
+item.stye.color = "red";
+var lastItem = document.querySelector(".list-group-item:last-child");
+lastItem.style.color = "blue";
