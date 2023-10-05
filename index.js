@@ -49,3 +49,12 @@ var item = document.querySelector(".list-group-item");
 item.stye.color = "red";
 var lastItem = document.querySelector(".list-group-item:last-child");
 lastItem.style.color = "blue";
+// query selector all
+var titles = document.querySelector(".title");
+console.log(titles);
+titles[0].textContent = "hello";
+
+var add = document.querySelectorAll("li:nth-child(odd)");
+for (var i = 0; i < onloadeddata.length; i++) {
+  odd[i].style.backgroundcolor = "blue";
+}
