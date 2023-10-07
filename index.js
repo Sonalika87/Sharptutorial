@@ -67,7 +67,7 @@ console.log(iteList.parentNode.parentNode);
 //parentElement
 console.log(itemList.parentElement);
 itemlist.parentElement.style.background = "#f4f4f4";
-console.log(iteList.parentElement.parentElement);*/
+console.log(iteList.parentElement.parentElement);
 console.log(itemList.children);
 console.log(itemlist
 //ChildNode
@@ -84,7 +84,13 @@ itemList.firstElementChild.textContent-'Hello 1';
 console.log(itemList.lastChild)
 //lastlementhild
 console.log(itemList.lastElementChild);
-itemList.lastElementChild.textContent='Hello4';
-
-
-
+itemList.lastElementChild.textContent='Hello4';*/
+//next sibling
+var itemList = document.querySelector("#item");
+console.log(itemList.nextSibling);
+console.log(itemList.lastElementSibling);
+//previousSibling
+console.log(itemList.previousSibling);
+//previousElementSibling
+console.log(itemList.previousElementSibling);
+itemList.previousElementSibling.style.color = "green";
