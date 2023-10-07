@@ -36,7 +36,7 @@ items[1].style.fontweight = "bold";
 //items .style.background
 for (var i = 0; i < items.length; i++) {
   items[i].style.backgroundcolor = "#f4f4f4";
-}*/
+}
 // query selector
 var header = document.querySelector("");
 header.style.borderBottom = "solid 5px red";
@@ -57,4 +57,10 @@ titles[0].textContent = "hello";
 var add = document.querySelectorAll("li:nth-child(odd)");
 for (var i = 0; i < onloadeddata.length; i++) {
   odd[i].style.backgroundcolor = "blue";
-}
+}*/
+//traversing the DOM
+var itemlist = document.querySelector("#item");
+//parentnode
+console.log(itemList.parentnode);
+itemlist.parentnode.style.background = "#f4f4f4";
+console.log(iteList.parentNode.parentNode);
