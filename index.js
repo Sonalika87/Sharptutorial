@@ -75,4 +75,16 @@ var itemList = document.querySelector("#item");
 console.log(itemList.children);
 console.log(itemList.children[1]);
 itemList.children[1].style.backgroundcolor-"yellow";
+//first child
+console.log(itemList.firstChild);
+//firstElementchild
+console.log(itemList.firstElementChild);
+itemList.firstElementChild.textContent-'Hello 1';
+//last child
+console.log(itemList.lastChild)
+//lastlementhild
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent='Hello4';
+
+
 
