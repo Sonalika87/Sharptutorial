@@ -57,10 +57,14 @@ titles[0].textContent = "hello";
 var add = document.querySelectorAll("li:nth-child(odd)");
 for (var i = 0; i < onloadeddata.length; i++) {
   odd[i].style.backgroundcolor = "blue";
-}*/
+}
 //traversing the DOM
 var itemlist = document.querySelector("#item");
 //parentnode
 console.log(itemList.parentnode);
 itemlist.parentnode.style.background = "#f4f4f4";
-console.log(iteList.parentNode.parentNode);
+console.log(iteList.parentNode.parentNode);*/
+//parentElement
+console.log(itemList.parentElement);
+itemlist.parentElement.style.background = "#f4f4f4";
+console.log(iteList.parentElement.parentElement);
