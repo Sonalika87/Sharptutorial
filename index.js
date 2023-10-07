@@ -63,8 +63,16 @@ var itemlist = document.querySelector("#item");
 //parentnode
 console.log(itemList.parentnode);
 itemlist.parentnode.style.background = "#f4f4f4";
-console.log(iteList.parentNode.parentNode);*/
+console.log(iteList.parentNode.parentNode);
 //parentElement
 console.log(itemList.parentElement);
 itemlist.parentElement.style.background = "#f4f4f4";
-console.log(iteList.parentElement.parentElement);
+console.log(iteList.parentElement.parentElement);*/
+console.log(itemList.children);
+console.log(itemlist
+//ChildNode
+var itemList = document.querySelector("#item");
+console.log(itemList.children);
+console.log(itemList.children[1]);
+itemList.children[1].style.backgroundcolor-"yellow";
+
