@@ -94,3 +94,15 @@ console.log(itemList.previousSibling);
 //previousElementSibling
 console.log(itemList.previousElementSibling);
 itemList.previousElementSibling.style.color = "green";
+//create Element;
+var newDiv = document.createElement("div");
+newDiv.className = "hello";
+newDiv.id = "hello1";
+newDiv.setAttribute("title", "Hello Div");
+newDivText = document.createTextNode("hello world");
+newDiv.append(newDiv);
+var container = document.querySelector("header.container");
+var h1 = document.querySelector("header h1");
+console.log(newDiv);
+newDiv.style.fontSize - "30px";
+container.insertBefore(newDiv, h1);
